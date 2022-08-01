@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <title> Contato | Tema </title>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+
+        <table border="3" bordercolor="#0439D9" bgcolor="#142559" width="1565" cellspacing="0" height="50">
+            <tr> <!--Cabeçalho da Página-->
+
+                <td align="center">
+                    <br/>
+                    <img src="img/logo.png" width="200" height="60" /> 
+                    <form>
+                        <br/>
+                        <label><font size="4" color="white" > Busca: </font></label>
+                        <input type="list" id="busca" size="50">
+                        <datalist id="busca">
+                        </datalist>
+                    </form>
+                    <br/>
+                </td>
+            </tr>
+        </table>
+
+        <table border="3" bordercolor="black" cellspacing="0" width="1565" height="40"> <!--Guias para as três páginas-->
+            <tr> 
+                <td bgcolor="#363540" align="center"><a href="index.html"><img src="img/home.png" width="25" height="25" alt="Home" /><font color="white" size="5"> Home</a>⠀⠀</font></td>
+                <td bgcolor="#363540" align="center"><a href="sobre.html"><img src="img/list.png" width="25" height="25" alt="Sobre"/><font color="white" size="5"> Sobre</a>⠀⠀</font></td>
+                <td bgcolor="#363540" align="center"><a href="contato.html"><img src="img/contato.png" width="25" height="25" alt="Contato"/><font color="white" size="5"> Contato</a>⠀</font></td>
+            </tr>
+        </table>
+
+        <table align="center" cellspacing="0" width="300">
+            <tr>
+                <td>
+                    <p align="center">
+                        <font color="darkblue" size="6"><b> Contato </b></font>
+                    </p>
+                </td>
+            </tr>
+        </table>
+
+        <hr size="4" color="#0439D9" width="200">    
+
+        <br/><br/>
+
+        <table align="center" border="1" bordercolor="#0439D9" cellspacing="0" width="500">
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend> Informe seus dados para receber mais informações </legend>
+                        <form action="enviar.php" method="post" name="cadastro">            
+                            <table align="center">
+                                <tr>
+                                    <td><label> Nome:* </label></td>
+                                    <td><input type="text" name="nome" id="nome" size="30" maxlength="50" 
+                                        placeholder="Digite seu nome completo" required/> 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> <br/> <label> Email:* </label></td>
+                                    <td> <br/> <input type="text" name="email" id="email" size="27" 
+                                        placeholder="Digite seu e-mail corretamente" required/>
+                                    </td>
+                                    <td> <br/> <label> Telefone:* </label></td>
+                                    <td> <br/> <input type="tel" name="telefone" id="telefone" size="30" 
+                                        placeholder="Informe seu telefone (XX) XXXXX-XXXX" required/> 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" colspan="4"> <br/><br/> <label> Informe quais Informações deseja receber: </label> </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" colspan="4"> <br/>
+                                        <label>
+                                        <input type="checkbox" name="promocoes" id="promocoes" value="promocoes"/>
+                                        Promoções </label>
+                                        <label>
+                                        <input type="checkbox" name="novos" id="novos" value="novos"/>
+                                        Novos Produtos </label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" colspan="4"> <br/>
+                                        <label>
+                                        <input type="checkbox" name="atualizacoes" id="atualizacoes" value="atualizacoes"/>
+                                        Atualizações </label>
+                                        <label>
+                                        <input type="checkbox" name="noticias" id="noticias" value="noticias"/>
+                                        Notícias </label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2"> <br/><br/>
+                                        <input type="submit" id="enviar" name="enviar" value="ENVIAR"/>
+                                    </th>
+                                    <th colspan="2"> <br/>
+                                        <input type="reset" id="limpar" name="limpar" value="LIMPAR"/>
+                                    </th>
+                                </tr>
+                            </table>
+                        </form>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr></tr>
+        </table>
+
+        <br/>
+
+        <table align="center" border="0" cellpadding="50" cellspacing="2"  width="900">
+            <tr>
+                <td align="left">
+                    <figure>
+                        <img src="img/logo.png" alt="IMAGEM"/>
+                        <figcaption> TudoTech </figcaption>
+                    </figure>
+                </td>
+                <td> 
+                    <p align="center">
+                        <b><font color="darkblue" size="5"> Contatos | TudoTech </font></b>
+                        <hr size="4" color="#0439D9" width="300">
+                        <br/>
+                    </p>
+                    <p>                        
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Telefone: (31) 2537-4933 <br/><br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-mail: atendimento@tudotech.com <br/><br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Endereço: Avenida Afonso Pena - 1501  <br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Centro - Belo Horizonte - MG <br/><br/>
+                    </p>
+                </td>
+            </tr>
+        </table>
+
+        <footer>
+            <table border="3" bordercolor="black" cellspacing="0" width="1565" height="40"><!--Guias para as três páginas-->
+                <tr> 
+                    <td bgcolor="#363540" align="center"><a href="index.html"><img src="img/home.png" width="25" height="25" alt="Home" /><font color="white" size="5"> Home</a>⠀⠀</font></td>
+                    <td bgcolor="#363540" align="center"><a href="sobre.html"><img src="img/list.png" width="25" height="25" alt="Sobre" /><font color="white" size="5"> Sobre</a>⠀⠀</font></td>
+                    <td bgcolor="#363540" align="center"><a href="contato.html"><img src="img/contato.png" width="25" height="25" alt="Contato" /><font color="white" size="5"> Contato</a>⠀</font></td>
+                </tr>
+            </table>
+
+            <table border="3" bordercolor="#0439D9" bgcolor="#142559" cellspacing="0" width="1565" heigth="90"> <!--Rodapé da Página-->
+                <tr> 
+                    <td>
+                        ⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/>
+                        ⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/>
+                        ⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/>
+                        ⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/>
+                        ⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/>
+                    </td>
+                </tr>
+            </table>
+        </footer> 
+        
+    </body>
+
+</html>
